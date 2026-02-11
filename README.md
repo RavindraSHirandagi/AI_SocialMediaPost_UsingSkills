@@ -21,7 +21,26 @@ This skill focuses on creating engaging and relatable content for Facebook.
     - Uses conversational language and relevant hashtags.
     - Designed to maximize engagement and "likes."
 
-## How to Use
+## Installation & Setup
+
+To use these skills with your AI agent:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/RavindraSHirandagi/AI_SocialMediaPost_UsingSkills.git
+   ```
+
+2. **Open in Your Agent's Workspace:**
+   - Open the cloned folder as your active workspace in the Antigravity (or compatible) agent.
+   - The agent will automatically detect and load the skills located in the `.agent/skills/` directory.
+
+3. **Explore More Skills:**
+   - This repository includes a vast library of additional skills in the `antigravity-awesome-skills/` and `anthropics_skills/` directories.
+   - To use any of these, simply copy the desired skill folder into your active `.agent/skills/` directory.
+
+## Creating New Skills
+Detailed instructions for creating your own custom skills can be found in [antigravity-skill-creator.md](antigravity-skill-creator.md). This guide explains the required file structure, YAML frontmatter, and best practices for defining powerful agent capabilities.
+
 To use a skill, simply mention it in your chat with the agent or describe what you want to do.
 
 **Examples:**
