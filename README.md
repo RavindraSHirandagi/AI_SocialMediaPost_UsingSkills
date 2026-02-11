@@ -38,6 +38,23 @@ To use these skills with your AI agent:
    - This repository includes a vast library of additional skills in the `antigravity-awesome-skills/` and `anthropics_skills/` directories.
    - To use any of these, simply copy the desired skill folder into your active `.agent/skills/` directory.
 
+
+## Project Structure
+
+Here is an overview of the project's file organization:
+
+```
+AI_SocialMediaPost_UsingSkills/
+├── .agent/
+│   └── skills/                  # Active skills loaded by the agent
+│       ├── writing-facebook-posts/
+│       └── writing-linkedin-posts/
+├── anthropics_skills/           # Library of additional skills from Anthropic
+├── antigravity-awesome-skills/  # Library of community skills
+├── antigravity-skill-creator.md # Guide for creating new skills
+└── README.md                    # Project documentation
+```
+
 ## Creating New Skills
 Detailed instructions for creating your own custom skills can be found in [antigravity-skill-creator.md](antigravity-skill-creator.md). This guide explains the required file structure, YAML frontmatter, and best practices for defining powerful agent capabilities.
 
